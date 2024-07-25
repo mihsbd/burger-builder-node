@@ -1,0 +1,25 @@
+{
+  "name": "burger_builder_api",
+  "version": "1.0.0",
+  "description": "This is an api for burger builder app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : { "node": "20.10.0" },
+  "author": "Iftekhar Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
